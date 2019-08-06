@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class driver {
 ArrayList<invoice> list;	
+Scanner scan = new Scanner (System.in);
  
 public driver()
 {
@@ -11,10 +12,12 @@ public driver()
 
 public void enterDetails()
 {
-	String address, invoiceNumber, date, matter, type,
+	String address, date, matter, type,
 	firstName, surname;  
 	
-	double professionalFee, vat, totalFee, amountPaid;
+	double professionalFee, vat;
+	
+	
 	
 	
 }
