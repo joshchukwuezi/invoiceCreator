@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
 public class menu {
+	Scanner scan = new Scanner (System.in);	
 
 public menu()
 {
-	Scanner scan = new Scanner (System.in);
 	String option;
 	
 	System.out.println("Select option");

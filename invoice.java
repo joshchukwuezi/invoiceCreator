@@ -78,6 +78,10 @@ public void setVat(double vat)
 	this.vat=0.187;
 }
 
+public void setProfFee(double pf)
+{
+	this.professionalFee=pf;
+}
 
 //display
 public String toString()
