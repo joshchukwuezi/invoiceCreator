@@ -35,9 +35,7 @@ public void enterDetails()
 	System.out.println("Enter professional fee");
 	professionalFee = scan.nextDouble();
 	
-	scan.nextLine();
 	
-	invoice.setVat();
 	
 }
 

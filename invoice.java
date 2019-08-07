@@ -95,6 +95,26 @@ public String toString()
   
 }
 
+public void createInvoiceNumber()
+{
+	for (int i=0; i < getFirstName().length(); i++)
+	{
+		
+	}
+	
+	
+	for (int i=0; i < getSurname().length(); i++)
+	{
+		
+	}
+	
+	for (int i=0; i < getDate().length(); i++)
+	{
+		
+	}
+	
+}
+
 	
 	
 }
