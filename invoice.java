@@ -97,21 +97,25 @@ public String toString()
 
 public void createInvoiceNumber()
 {
+	invoiceNumber = ""; 
+	
 	for (int i=0; i < getFirstName().length(); i++)
 	{
-		
+		invoiceNumber = invoiceNumber + firstName.charAt(0);
 	}
 	
 	
 	for (int i=0; i < getSurname().length(); i++)
 	{
-		
+		invoiceNumber = invoiceNumber + surname.charAt(i-1);
 	}
 	
 	for (int i=0; i < getDate().length(); i++)
 	{
 		
 	}
+	
+	
 	
 }
 
