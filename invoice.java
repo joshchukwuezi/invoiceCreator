@@ -50,27 +50,7 @@ String d, String m, String t, double pf, double v, double tf, double ap, double 
 	 return this.date;
  }
  
- /*public double getProfessionalFee() I don't know if I am going to need these or not
- {
-	 return this.professionalFee;
- }
  
- public double getVat()
- {
-	return this.vat;
-	
- }
- 
- public double getTotalFee()
- {
-	 return this.totalFee;
- }
- 
- public double getAmountPaid()
- {
-	 return this.amountPaid;
- }
- */
  
 //setters
 public void setVat(double vat)
@@ -95,29 +75,40 @@ public String toString()
   
 }
 
-public void createInvoiceNumber()
+//creating invoice number
+
+public String createInvoiceNumber()
 {
 	invoiceNumber = ""; 
 	
 	for (int i=0; i < getFirstName().length(); i++)
 	{
-		invoiceNumber = invoiceNumber + firstName.charAt(0);
+		invoiceNumber = invoiceNumber + getFirstName().charAt(0);
+		
+	}
+	
+	for (int i=0; i < getDate().length(); i++)
+	{
+		invoiceNumber = invoiceNumber + getDate().substring(0,1) + 
+		getDate().substring(3,4)
+		+ getDate().substring(6,7);
 	}
 	
 	
 	for (int i=0; i < getSurname().length(); i++)
 	{
-		invoiceNumber = invoiceNumber + surname.charAt(i-1);
-	}
-	
-	for (int i=0; i < getDate().length(); i++)
-	{
+		invoiceNumber = invoiceNumber + getSurname().charAt(getSurname().length()-1);
 		
 	}
 	
+	return invoiceNumber;
 	
 	
 }
+
+//calculations
+
+
 
 	
 	

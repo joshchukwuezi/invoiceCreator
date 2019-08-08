@@ -26,6 +26,9 @@ public void enterDetails()
 	System.out.println("Enter matter");
 	matter = scan.nextLine();
 	
+	System.out.println("Enter type");
+	type = scan.nextLine();
+	
 	System.out.println("Enter first name");
 	firstName = scan.nextLine();
 	
