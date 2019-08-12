@@ -10,6 +10,7 @@ public driver()
 	list = new ArrayList <invoice> ();
 }
 
+/*
 public void enterDetails()
 {
 	String address, date, matter, type,
@@ -37,13 +38,29 @@ public void enterDetails()
 	
 	System.out.println("Enter professional fee");
 	professionalFee = scan.nextDouble();
-	
-	
-	
+		
+			
 }
+ */
 
+ public void testDetails()
+ {
+	 String address, invoiceNumber, date, matter, type,
+	 firstName, surname;
 
-
+	 double professionalFee, vat, totalFee, amountPaid, feeBeforeVat, vatOnFee;
+	 
+	 address = "89 Somerville, Ratoath, Co. Meath";
+	 invoiceNumber= "";
+	 date= "12/03/19";
+	 matter="Immigration";
+	 type="Naturalisation Application";
+	 firstName="Joshua";
+	 surname="Chukwuezi";
+	 
+	 //professionalFee=
+			 
+ }
 	
 	
 	
